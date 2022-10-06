@@ -86,9 +86,7 @@ echo nl2br("\n" . round(sqrt(379), 1) . " ");
 echo nl2br("\n" . round(sqrt(379), 2) . " ");
 
 $dict = ['floor' => floor(sqrt(587)), 'ceil' => ceil(sqrt(587))];
-echo '<pre>';
 print_r($dict);
-echo '</pre>';
 $arr = [4, -2, 5, 19, -130, 0, 10];
 
 echo nl2br("\n" . min($arr));
